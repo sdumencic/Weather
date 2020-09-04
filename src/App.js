@@ -9,7 +9,7 @@ const App = () => {
   const [weather, setWeather] = useState({});
 
   const temperature = () => {
-    if(weather.main != undefined) {
+    if(weather.main !== undefined) {
       if(weather.main.temp < 20) {
         return "App"
       } else if(weather.main.temp >= 20) {

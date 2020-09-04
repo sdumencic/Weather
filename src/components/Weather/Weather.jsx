@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './Weather.module.css';
 import { motion } from "framer-motion";
 import hot from '../../images/hot.png'
@@ -72,7 +72,7 @@ const Weather = ({ weather }) => {
         Feels like: {Math.round(weather.main.feels_like)}
       </motion.div>}
       {weather.main && <motion.div className={styles.gridcontainer} variants={item} whileHover={{ scale: 1.2 }}>
-        <img src={temperatureHandler()}/>
+        <img src={temperatureHandler()} alt="temperature bar"/>
       </motion.div>}
     </motion.div>
   )
