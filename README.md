@@ -32,11 +32,26 @@ API available at: https://openweathermap.org/
 Background pictures made by me in Krita.
 
 ## How to run this project
+Go to https://openweathermap.org/ and register. Take the API key and paste it in ```src/components/Searchbar/Searchbar.jsx```
 
 1. ```npm install```
 2. ```npm start```
 
 ## Design and UI
+
+The background changes:
+1. Default background
+2. Background for warm weather (above or equal to 20°)
+3. Background for cold weather (below 20°)
+
+Thermometer changes:
+1. Blue thermometer for temperatures below 17°
+2. Orange thermometer for temperatures between 25° and 17° 
+3. Red thermometer for temperatures above 25°
+
+<img src="https://i.ibb.co/CnpGYG8/Fire-Shot-Capture-212-React-App-localhost.png" alt="Fire-Shot-Capture-212-React-App-localhost">
+<img src="https://i.ibb.co/DQTWgzX/Fire-Shot-Capture-215-React-App-localhost.png" alt="Fire-Shot-Capture-215-React-App-localhost">
+<img src="https://i.ibb.co/fNrHYkN/Fire-Shot-Capture-218-React-App-localhost.png" alt="Fire-Shot-Capture-218-React-App-localhost">
 
 ## Available Scripts
 
