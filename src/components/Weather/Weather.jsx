@@ -47,9 +47,9 @@ const Weather = ({ weather }) => {
   const temperatureHandler = () => {
     if(weather.main.temp >= '25') {
       return hot;
-    } else if(weather.main.temp >= '17' && weather.main.temp < '25') {
+    } else if(Math.round(weather.main.temp) >= '17' && Math.round(weather.main.temp) < '25') {
       return warm;
-    } else if(weather.main.temp < '17') {
+    } else if(Math.round(weather.main.temp < '17')) {
       return cold;
     }
   }
