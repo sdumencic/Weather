@@ -49,9 +49,9 @@ Thermometer changes:
 2. Orange thermometer for temperatures between 25° and 17° 
 3. Red thermometer for temperatures above 25°
 
-<img src="https://i.ibb.co/CnpGYG8/Fire-Shot-Capture-212-React-App-localhost.png" alt="Fire-Shot-Capture-212-React-App-localhost">
-<img src="https://i.ibb.co/DQTWgzX/Fire-Shot-Capture-215-React-App-localhost.png" alt="Fire-Shot-Capture-215-React-App-localhost">
-<img src="https://i.ibb.co/fNrHYkN/Fire-Shot-Capture-218-React-App-localhost.png" alt="Fire-Shot-Capture-218-React-App-localhost">
+<img src="images/1.png" alt="Fire-Shot-Capture-212-React-App-localhost">
+<img src="images/2.png" alt="Fire-Shot-Capture-215-React-App-localhost">
+<img src="images/3.png" alt="Fire-Shot-Capture-218-React-App-localhost">
 
 ## Available Scripts
 
